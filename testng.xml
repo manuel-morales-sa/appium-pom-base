@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parallel">
+    <test name="Device-1" >
+        <parameter name="deviceName" value="device" />
+        <parameter name="udid" value="DVR0219123011307" />
+        <parameter name="platformVersion" value="8.1" />
+        <parameter name="automationName" value="UiAutomator2" />
+        <parameter name="url" value="http://127.0.0.1:4723" />
+        <parameter name="app" value="/Users/mmorales/Documents/Crehana/repositorios/apk/Crehana.apk" />
+        <classes>
+            <class name="testScript.LoginTest"/>
+        </classes>
+    </test>
+</suite>
